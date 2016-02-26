@@ -16,7 +16,7 @@ libraryDependencies ++= Seq(
   "com.github.nscala-time" % "nscala-time_2.11" % "2.8.0",
   "org.mongodb" % "casbah_2.11" % "3.1.0",
   "org.json4s" % "json4s-jackson_2.11" % "3.3.0",
-  "org.scalaj" % "scalaj-http_2.11" % "0.3.16",
+  "org.scalaj" % "scalaj-http_2.11" % "2.2.1",
   "org.joda" % "joda-convert" % "1.8.1",
   "com.typesafe.play" % "play-json_2.11" % "2.4.6"
 )

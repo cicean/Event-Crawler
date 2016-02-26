@@ -6,6 +6,8 @@ import org.json4s._
 import org.json4s.jackson.JsonMethods._
 import com.github.nscala_time.time.Imports._
 
+import scalaj.http._
+
 
 private case class MeetupFee(
                 amount: Double,
@@ -61,7 +63,7 @@ class Meetup extends EventSource {
 
   def getAllCategories(): Map[String, String] = {
     val url = getRequestUrl(categoryUrl)
-    val resp = HTTPRequest.get(url)
+    val resp : HttpResponse[String] = Http(url.toString).asString
     val json = parse(resp.body)
     val results = json \ "results"
     val categories: List[(String, String)] = for {
@@ -74,7 +76,8 @@ class Meetup extends EventSource {
 
   def getCitiesOfCountry(countryCode: String): List[String] = {
     val url = getRequestUrl(cityUrl, Map("country"-> countryCode))
-    val json = HTTPRequest.getJSON(url)
+    val resp : HttpResponse[String] = Http(url.toString).asString
+    val json = parse(resp.body)
     var next = (json \ "meta" \ "next").values.asInstanceOf[String]
     var cities: List[String] = for {
       JObject(cityList) <- (json \ "results")
@@ -83,7 +86,8 @@ class Meetup extends EventSource {
     var i = 1
     while (next != "") {
       val url = getRequestUrl(cityUrl, Map("country"-> countryCode, "offset"-> i.toString))
-      val json = HTTPRequest.getJSON(url)
+      val resp : HttpResponse[String] = Http(url.toString).asString
+      val json = parse(resp.body)
       next = (json \ "meta" \ "next").values.asInstanceOf[String]
       cities ++= (for {
         JObject(cityList) <- (json \ "results")
@@ -96,14 +100,16 @@ class Meetup extends EventSource {
 
   def getEventsOfCategory(catId: String, catName: String, filters: Map[String, String] = Map()): List[Map[String, Any]] = {
     val url = getRequestUrl(eventSearchUrl, Map("category"-> catId) ++ filters)
-    val json = HTTPRequest.getJSON(url)
+    val resp : HttpResponse[String] = Http(url.toString).asString
+    val json = parse(resp.body)
     val results = json \ "results"
     var events = results.children.map {case j: JObject => j.extract[MeetupEvent]}
     var next = (json \ "meta" \ "next").values.asInstanceOf[String]
     var i = 1
     while (next != "") {
       val url = getRequestUrl(eventSearchUrl, Map("category"-> catId) ++ filters ++ Map("offset"-> i.toString))
-      val json = HTTPRequest.getJSON(url)
+      val resp : HttpResponse[String] = Http(url.toString).asString
+      val json = parse(resp.body)
       val results = json \ "results"
       events ++= results.children.map {case j: JObject => j.extract[MeetupEvent]}
       next = (json \ "meta" \ "next").values.asInstanceOf[String]

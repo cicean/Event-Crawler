@@ -1,6 +1,8 @@
 Event-Crawler
 =============
 
++The copy from the https://github.com/lovesh/Event-Crawler, and modify it and update to our custom version for event web site crawler
+
 Gets events from APIs of eventful, eventbrite and meetup, normalizes them to a particular format and stores them in MongoDB.
 This was my first scala project. To use it type on the shell
 `sbt console`

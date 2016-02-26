@@ -6,6 +6,7 @@ import crawler._
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 import com.github.nscala_time.time.Imports._
+import scalaj.http._
 
 
 case class EventbriteVenue (
@@ -61,15 +62,27 @@ class Eventbrite extends EventSource {
   def getAllCategories(): List[String] = {
     val url = getRequestUrl(categoryUrl)
     // have to send `application/json` as headers otherwise the api sends an html response
-    val resp = HTTPRequest.get(url, headers = Map("Accept"-> "application/json"))
+    //    val resp = HTTPRequest.get(url, headers = Map("Accept"-> "application/json"))
+    val resp: HttpResponse[String] = Http(url.toString).headers(Seq("Accept" -> "application/json")).asString
     println(url)
-    //println(resp.body)
+    println(resp.body)
+    if (resp.body == null) {
+        println("Its is empty")
+
+    }
+    if (resp.toString.length == 0) {
+      println("Its is empty")
+    }
+
+//    if (resp != null && resp.body.toString.length > 0) {
     val json = parse(resp.body)
     val results = json \ "categories"
     for {
       JObject(catList) <- results
-      JField("id", JString(id))  <- catList
+      JField("id", JString(id)) <- catList
     } yield id
+
+
   }
 
   def getEventsFromSearchPage(json: JValue): List[EventbriteEvent] = {
@@ -93,16 +106,30 @@ class Eventbrite extends EventSource {
   def getEventsOfCategory(catId: String, filters: Map[String, String] = Map()): List[Map[String, Any]] = {
     val url = getRequestUrl(eventSearchUrl, Map("categories"-> catId) ++ filters)
     // have to send `application/json` as headers otherwise the api sends an html response
-    val headers = Map("Accept"-> "application/json")
-    val json = HTTPRequest.getJSON(url, headers = headers)
+//    val headers = Map("Accept"-> "application/json")
+//    val json = HTTPRequest.getJSON(url, headers = headers)
+    val resp : HttpResponse[String] = Http(url.toString).headers(Seq("Accept"-> "application/json")).asString
+    println(url)
+    println(resp.body)
+    if (resp.body == null) {
+      println("Its is empty")
+
+    }
+    if (resp.toString.length == 0) {
+      println("Its is empty")
+    }
+    val json = parse(resp.body)
+    println("GetEventOfCategory = " + json.toString)
     val results = json \ "events"
     var events = getEventsFromSearchPage(json)
     var (page_number, page_count) = getPaginationData(json)
-
     while (page_number < page_count) {
       page_number += 1
       val url = getRequestUrl(eventSearchUrl, Map("categories"-> catId, "page"-> page_number.toString) ++ filters)
-      val json = HTTPRequest.getJSON(url, headers=headers)
+//      val json = HTTPRequest.getJSON(url, headers=headers)
+      val resp : HttpResponse[String] = Http(url.toString).headers(Seq("Accept"-> "application/json")).asString
+      println(url)
+      val json = parse(resp.body)
       events ++= getEventsFromSearchPage(json)
       page_count = getPaginationData(json)._2
     }
@@ -184,6 +211,7 @@ class Eventbrite extends EventSource {
     }
 
     eventData("ticket_classes") match {
+      case Nil => print("Nil")
       case null =>
         fields += (
           "display_price"-> "free",
