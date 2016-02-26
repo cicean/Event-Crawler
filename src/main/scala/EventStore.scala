@@ -24,7 +24,10 @@ object EventStore {
   def saveEvent(event: NormalizedEvent) {
     val query = MongoDBObject("source_id" -> event.source_id)
     val builder = MongoDBObject.newBuilder
-    event.toMap.foreach {case (k: String, v: Any) => builder += k-> v}
+    event.toMap.foreach {
+      case (k: String, v: Any) => builder += k-> v
+      case (k: String, null) => builder += k -> null
+    }
     coll.update(query, builder.result(), upsert = true)
   }
 }
