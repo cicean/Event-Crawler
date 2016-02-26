@@ -4,7 +4,7 @@
 		module="events$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160225201404"
+		publication="20160225223806"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -90,7 +90,7 @@
 		<dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.6.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="jackson-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
-		<dependency org="org.scalaj" name="scalaj-http_2.11" rev="2.2.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+		<dependency org="org.scalaj" name="scalaj-http_2.11" rev="0.3.16" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="scalaj-http_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.joda" name="joda-convert" rev="1.8.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">

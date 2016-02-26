@@ -9,7 +9,7 @@
 [debug] == resolving dependencies for events#events$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ed5b91
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a887c
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -18,7 +18,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->net.databinder.dispatch#dispatch-core_2.11;0.11.3 [compile->default(compile)]
 [info] Resolving net.databinder.dispatch#dispatch-core_2.11;0.11.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bb8690
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@924274
 [debug] sbt-chain: module revision found in cache: net.databinder.dispatch#dispatch-core_2.11;0.11.3
 [debug] 	found net.databinder.dispatch#dispatch-core_2.11;0.11.3 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->net.databinder.dispatch#dispatch-core_2.11;0.11.3 [compile->runtime]
@@ -26,7 +26,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->net.databinder.dispatch#dispatch-core_2.11;0.11.3 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.ning#async-http-client;1.9.11 [compile->default(compile)]
 [info] Resolving com.ning#async-http-client;1.9.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@814773
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b66d38
 [debug] sbt-chain: module revision found in cache: com.ning#async-http-client;1.9.11
 [debug] 	found com.ning#async-http-client;1.9.11 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.ning#async-http-client;1.9.11 [compile->runtime]
@@ -34,7 +34,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.ning#async-http-client;1.9.11 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->io.netty#netty;3.10.0.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.10.0.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b6a5ac
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b15beb
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.10.0.Final
 [debug] 	found io.netty#netty;3.10.0.Final in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->io.netty#netty;3.10.0.Final [compile->runtime]
@@ -42,7 +42,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->io.netty#netty;3.10.0.Final [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.7 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b0cefc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@130f67a
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.7
 [debug] 	found org.slf4j#slf4j-api;1.7.7 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.7 [compile->runtime]
@@ -50,7 +50,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.7 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-money;0.11 [compile->default(compile)]
 [info] Resolving org.joda#joda-money;0.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c5371f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3771fd
 [debug] sbt-chain: module revision found in cache: org.joda#joda-money;0.11
 [debug] 	found org.joda#joda-money;0.11 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-money;0.11 [compile->runtime]
@@ -58,7 +58,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-money;0.11 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.github.nscala-time#nscala-time_2.11;2.8.0 [compile->default(compile)]
 [info] Resolving com.github.nscala-time#nscala-time_2.11;2.8.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6afcf2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e3b3c5
 [debug] sbt-chain: module revision found in cache: com.github.nscala-time#nscala-time_2.11;2.8.0
 [debug] 	found com.github.nscala-time#nscala-time_2.11;2.8.0 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.github.nscala-time#nscala-time_2.11;2.8.0 [compile->runtime]
@@ -66,7 +66,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.github.nscala-time#nscala-time_2.11;2.8.0 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->joda-time#joda-time;2.9.2 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.9.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ec6874
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c7bec
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.9.2
 [debug] 	found joda-time#joda-time;2.9.2 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->joda-time#joda-time;2.9.2 [compile->runtime]
@@ -74,7 +74,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->joda-time#joda-time;2.9.2 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->default(compile)]
 [info] Resolving org.mongodb#casbah-commons_2.11;3.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@141f654
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@120ffa2
 [debug] sbt-chain: module revision found in cache: org.mongodb#casbah-commons_2.11;3.1.0
 [debug] 	found org.mongodb#casbah-commons_2.11;3.1.0 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->runtime]
@@ -82,7 +82,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.mongodb#mongo-java-driver;3.2.0 [compile->default(compile)]
 [info] Resolving org.mongodb#mongo-java-driver;3.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a83ac
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e59e97
 [debug] sbt-chain: module revision found in cache: org.mongodb#mongo-java-driver;3.2.0
 [debug] 	found org.mongodb#mongo-java-driver;3.2.0 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.mongodb#mongo-java-driver;3.2.0 [compile->runtime]
@@ -90,7 +90,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.mongodb#mongo-java-driver;3.2.0 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->default(compile)]
 [info] Resolving org.mongodb#casbah-core_2.11;3.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56d556
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a1ceaf
 [debug] sbt-chain: module revision found in cache: org.mongodb#casbah-core_2.11;3.1.0
 [debug] 	found org.mongodb#casbah-core_2.11;3.1.0 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->runtime]
@@ -98,7 +98,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->default(compile)]
 [info] Resolving org.mongodb#casbah-query_2.11;3.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cb096a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fd6260
 [debug] sbt-chain: module revision found in cache: org.mongodb#casbah-query_2.11;3.1.0
 [debug] 	found org.mongodb#casbah-query_2.11;3.1.0 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->runtime]
@@ -106,7 +106,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->default(compile)]
 [info] Resolving org.mongodb#casbah-gridfs_2.11;3.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7176bf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fede93
 [debug] sbt-chain: module revision found in cache: org.mongodb#casbah-gridfs_2.11;3.1.0
 [debug] 	found org.mongodb#casbah-gridfs_2.11;3.1.0 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->runtime]
@@ -114,7 +114,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.json4s#json4s-jackson_2.11;3.3.0 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-jackson_2.11;3.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a69c6e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12ef4d2
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-jackson_2.11;3.3.0
 [debug] 	found org.json4s#json4s-jackson_2.11;3.3.0 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.json4s#json4s-jackson_2.11;3.3.0 [compile->runtime]
@@ -122,7 +122,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.json4s#json4s-jackson_2.11;3.3.0 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.json4s#json4s-core_2.11;3.3.0 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-core_2.11;3.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@185cf88
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10bc257
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-core_2.11;3.3.0
 [debug] 	found org.json4s#json4s-core_2.11;3.3.0 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.json4s#json4s-core_2.11;3.3.0 [compile->runtime]
@@ -130,7 +130,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.json4s#json4s-core_2.11;3.3.0 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.json4s#json4s-ast_2.11;3.3.0 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-ast_2.11;3.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@98d3fb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@234abb
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.11;3.3.0
 [debug] 	found org.json4s#json4s-ast_2.11;3.3.0 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.json4s#json4s-ast_2.11;3.3.0 [compile->runtime]
@@ -138,7 +138,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.json4s#json4s-ast_2.11;3.3.0 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.json4s#json4s-scalap_2.11;3.3.0 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-scalap_2.11;3.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1bd0716
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cb4537
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-scalap_2.11;3.3.0
 [debug] 	found org.json4s#json4s-scalap_2.11;3.3.0 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.json4s#json4s-scalap_2.11;3.3.0 [compile->runtime]
@@ -146,7 +146,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.json4s#json4s-scalap_2.11;3.3.0 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->default(compile)]
 [info] Resolving com.thoughtworks.paranamer#paranamer;2.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e013fd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@652b30
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.8
 [debug] 	found com.thoughtworks.paranamer#paranamer;2.8 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->runtime]
@@ -154,7 +154,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@186c4b5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36ba19
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.5
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.5 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->runtime]
@@ -162,7 +162,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.6.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1dfeef1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@134a0cc
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.6.2
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.6.2 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.6.2 [compile->runtime]
@@ -170,7 +170,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.6.2 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.6.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11cfdd8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b5cc4
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.6.0
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.6.0 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->runtime]
@@ -178,23 +178,23 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d7f64d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1916d7a
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.6.2
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.6.2 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->master]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->default(compile)]
-[info] Resolving org.scalaj#scalaj-http_2.11;2.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12cc349
-[debug] sbt-chain: module revision found in cache: org.scalaj#scalaj-http_2.11;2.2.1
-[debug] 	found org.scalaj#scalaj-http_2.11;2.2.1 in sbt-chain
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->runtime]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->compile]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->master]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->default(compile)]
+[info] Resolving org.scalaj#scalaj-http_2.11;0.3.16 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@632298
+[debug] sbt-chain: module revision found in cache: org.scalaj#scalaj-http_2.11;0.3.16
+[debug] 	found org.scalaj#scalaj-http_2.11;0.3.16 in sbt-chain
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->runtime]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->compile]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.8.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10272b9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13d022f
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.8.1
 [debug] 	found org.joda#joda-convert;1.8.1 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->runtime]
@@ -202,7 +202,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a6298e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14db32e
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-json_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.4.6 [compile->runtime]
@@ -210,7 +210,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@160cc5a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ace032
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-iteratees_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->runtime]
@@ -218,7 +218,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@111bd52
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d29552
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
@@ -226,7 +226,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9c13b3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1543720
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
 [debug] 	found com.typesafe#config;1.3.0 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->runtime]
@@ -234,7 +234,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c6445d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e54fd9
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-functional_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.4.6 [compile->runtime]
@@ -242,7 +242,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7567f4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12bd381
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-datacommons_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.4.6 [compile->runtime]
@@ -250,7 +250,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6eb983
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e162af
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6
 [debug] 	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain
 [debug] 	[2.11.6] org.scala-lang#scala-reflect;2.11.6
@@ -259,7 +259,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e63a9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5da498
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 [compile->runtime]
@@ -267,7 +267,7 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19489ce
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13df266
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 in sbt-chain
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 [compile->runtime]
@@ -364,10 +364,10 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->master]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->default(compile)]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->runtime]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->compile]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->master]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->default(compile)]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->runtime]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->compile]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->default(compile)]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->compile]
@@ -496,10 +496,10 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [runtime->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [runtime->compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [runtime->master]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->default(compile)]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->runtime]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->compile]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->master]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->default(compile)]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->runtime]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->compile]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [runtime->default(compile)]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [runtime->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [runtime->compile]
@@ -632,10 +632,10 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->master]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->default(compile)]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->runtime]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->compile]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->master]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->default(compile)]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->runtime]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->compile]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->default(compile)]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->compile]
@@ -764,10 +764,10 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [runtime->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [runtime->compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [runtime->master]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->default(compile)]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->runtime]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->compile]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->master]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->default(compile)]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->runtime]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->compile]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [runtime->default(compile)]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [runtime->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [runtime->compile]
@@ -896,10 +896,10 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [test->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [test->compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [test->master]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [test->default(compile)]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [test->runtime]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [test->compile]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [test->master]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [test->default(compile)]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [test->runtime]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [test->compile]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [test->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [test->default(compile)]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [test->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [test->compile]
@@ -1035,10 +1035,10 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->master]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->default(compile)]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->runtime]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->compile]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->master]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->default(compile)]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->runtime]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->compile]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->default(compile)]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->compile]
@@ -1169,10 +1169,10 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile-internal->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile-internal->compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile-internal->master]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile-internal->default(compile)]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile-internal->runtime]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile-internal->compile]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile-internal->master]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile-internal->default(compile)]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile-internal->runtime]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile-internal->compile]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile-internal->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile-internal->default(compile)]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile-internal->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile-internal->compile]
@@ -1305,10 +1305,10 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->master]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->default(compile)]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->runtime]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->compile]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->master]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->default(compile)]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->runtime]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->compile]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->default(compile)]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->compile]
@@ -1437,10 +1437,10 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [runtime->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [runtime->compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [runtime->master]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->default(compile)]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->runtime]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->compile]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->master]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->default(compile)]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->runtime]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->compile]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [runtime->default(compile)]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [runtime->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [runtime->compile]
@@ -1570,10 +1570,10 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [runtime-internal->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [runtime-internal->compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [runtime-internal->master]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime-internal->default(compile)]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime-internal->runtime]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime-internal->compile]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime-internal->master]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime-internal->default(compile)]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime-internal->runtime]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime-internal->compile]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime-internal->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [runtime-internal->default(compile)]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [runtime-internal->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [runtime-internal->compile]
@@ -1707,10 +1707,10 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [compile->master]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->default(compile)]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->runtime]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->compile]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [compile->master]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->default(compile)]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->runtime]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->compile]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [compile->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->default(compile)]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->compile]
@@ -1839,10 +1839,10 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [runtime->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [runtime->compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [runtime->master]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->default(compile)]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->runtime]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->compile]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [runtime->master]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->default(compile)]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->runtime]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->compile]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [runtime->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [runtime->default(compile)]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [runtime->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [runtime->compile]
@@ -1971,10 +1971,10 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [test->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [test->compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [test->master]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [test->default(compile)]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [test->runtime]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [test->compile]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [test->master]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [test->default(compile)]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [test->runtime]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [test->compile]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [test->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [test->default(compile)]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [test->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [test->compile]
@@ -2105,10 +2105,10 @@
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [test-internal->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [test-internal->compile]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.2 [test-internal->master]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [test-internal->default(compile)]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [test-internal->runtime]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [test-internal->compile]
-[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;2.2.1 [test-internal->master]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [test-internal->default(compile)]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [test-internal->runtime]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [test-internal->compile]
+[debug] == resolving dependencies events#events$sources_2.11;1.0->org.scalaj#scalaj-http_2.11;0.3.16 [test-internal->master]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [test-internal->default(compile)]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [test-internal->runtime]
 [debug] == resolving dependencies events#events$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [test-internal->compile]
@@ -2250,8 +2250,8 @@
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.6.0!jackson-annotations.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.6.2!jackson-core.jar
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.6.2!jackson-core.jar(src)
-[debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.11;2.2.1!scalaj-http_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.11;2.2.1!scalaj-http_2.11.jar
+[debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.11;0.3.16!scalaj-http_2.11.jar
+[debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.11;0.3.16!scalaj-http_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.joda#joda-convert;1.8.1!joda-convert.jar(src)
 [debug] 	[NOT REQUIRED] org.joda#joda-convert;1.8.1!joda-convert.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.11;2.4.6!play-json_2.11.jar
@@ -2277,7 +2277,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 1051ms :: artifacts dl 90ms
+[debug] :: resolution report :: resolve 929ms :: artifacts dl 88ms
 [debug] 	report for events#events$sources_2.11;1.0 compile produced in C:\Users\cicea\Desktop\SocialGear\Event-Crawler\target\resolution-cache\reports\events-events$sources_2.11-compile.xml
 [debug] 	report for events#events$sources_2.11;1.0 runtime produced in C:\Users\cicea\Desktop\SocialGear\Event-Crawler\target\resolution-cache\reports\events-events$sources_2.11-runtime.xml
 [debug] 	report for events#events$sources_2.11;1.0 test produced in C:\Users\cicea\Desktop\SocialGear\Event-Crawler\target\resolution-cache\reports\events-events$sources_2.11-test.xml
@@ -2291,4 +2291,4 @@
 [debug] 	report for events#events$sources_2.11;1.0 docs produced in C:\Users\cicea\Desktop\SocialGear\Event-Crawler\target\resolution-cache\reports\events-events$sources_2.11-docs.xml
 [debug] 	report for events#events$sources_2.11;1.0 pom produced in C:\Users\cicea\Desktop\SocialGear\Event-Crawler\target\resolution-cache\reports\events-events$sources_2.11-pom.xml
 [debug] 	report for events#events$sources_2.11;1.0 scala-tool produced in C:\Users\cicea\Desktop\SocialGear\Event-Crawler\target\resolution-cache\reports\events-events$sources_2.11-scala-tool.xml
-[debug] 	resolve done (1051ms resolve - 90ms download)
+[debug] 	resolve done (929ms resolve - 88ms download)

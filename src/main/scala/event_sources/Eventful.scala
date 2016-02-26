@@ -7,7 +7,6 @@ import org.json4s._
 import org.json4s.jackson.JsonMethods._
 import com.github.nscala_time.time.Imports._
 import java.util.Locale
-import scalaj.http._
 
 
 private case class EventfulLink(url: String, `type`: String)
@@ -57,7 +56,7 @@ class Eventful extends EventSource {
 
   def getAllCategories(): Map[String, String] = {
     val url = getRequestUrl(categoryUrl)
-    val resp : HttpResponse[String] = Http(url.toString).asString
+    val resp = HTTPRequest.get(url)
     val json = parse(resp.body)
     val categories: List[(String, String)] = for {
       JObject(catList) <- json
@@ -127,16 +126,15 @@ class Eventful extends EventSource {
 
   def getEventsOfCategory(catId: String): List[Map[String, Any]] = {
     val url = getRequestUrl(eventSearchUrl, Map("c"-> catId))
-    val resp : HttpResponse[String] = Http(url.toString).asString
-    val json = parse(resp.body)
+    val resp = HTTPRequest.get(url).body
+    val json = parse(resp)
     var eventsSummary = getEventsSummaryFromSearchPage(json)
     val pageCount = (json \\ "page_count").values.toString.toInt
     if (pageCount > 1) {
       var i = 2
       while (i<=pageCount) {
         val url = getRequestUrl(eventSearchUrl, Map("c"-> catId, "page_number"-> i.toString))
-        val resp : HttpResponse[String] = Http(url.toString).asString
-        val json = parse(resp.body)
+        val json = parse(HTTPRequest.get(url).body)
         eventsSummary = eventsSummary ++ getEventsSummaryFromSearchPage(json)
         i+= 1
       }
@@ -145,8 +143,7 @@ class Eventful extends EventSource {
     eventsSummary.foreach {
       case m:Map[String, Any] if EventStore.hasEventChanged("eventful", m("id").toString, m("updated").asInstanceOf[DateTime]) =>
         val url = getRequestUrl(eventDetailUrl, Map("id"-> m("id").toString))
-        val resp : HttpResponse[String] = Http(url.toString).asString
-        val json = parse(resp.body)
+        val json = parse(HTTPRequest.get(url).body)
         events = events :+ getEventDetailFromEventPage(json)
     }
     println("Got %d events for cat id %s".format(events.size, catId))

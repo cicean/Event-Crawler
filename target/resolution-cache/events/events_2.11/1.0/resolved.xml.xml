@@ -4,7 +4,7 @@
 		module="events_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160225201400"
+		publication="20160225230441"
 	>
 		<description>
 		events
@@ -39,7 +39,7 @@
 		<dependency org="com.github.nscala-time" name="nscala-time_2.11" rev="2.8.0" conf="compile->default(compile)"/>
 		<dependency org="org.mongodb" name="casbah_2.11" rev="3.1.0" conf="compile->default(compile)"/>
 		<dependency org="org.json4s" name="json4s-jackson_2.11" rev="3.3.0" conf="compile->default(compile)"/>
-		<dependency org="org.scalaj" name="scalaj-http_2.11" rev="2.2.1" conf="compile->default(compile)"/>
+		<dependency org="org.scalaj" name="scalaj-http_2.11" rev="0.3.16" conf="compile->default(compile)"/>
 		<dependency org="org.joda" name="joda-convert" rev="1.8.1" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-json_2.11" rev="2.4.6" conf="compile->default(compile)"/>
 	</dependencies>

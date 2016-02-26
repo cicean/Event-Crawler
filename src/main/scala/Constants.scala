@@ -13,7 +13,8 @@ object Constants {
     // should be in separate file included in .gitignore but whatever
     val eventfulAppKey = "6Cg389qxws592QDW"
     val meetupApiKey = "293d561751234385640366c12221e41"
-    val eventbriteToken = "WCKIMHBTNTLSCLUDGQ64"
+    // val eventbriteToken = "WCKIMHBTNTLSCLUDGQ64"
+    val eventbriteToken = "4HUBRSYKJFKKL3TC7C7Z"
   }
 
   object eventDBConfig {
