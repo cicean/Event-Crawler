@@ -56,7 +56,7 @@ object HTTPRequest {
 		try {
 			parse(response.body)
 		} catch {
-			case e: Exception => throw new MyParseException(json, e)
+			case e: Exception => throw new Exception(e)
 		}
 
   }
